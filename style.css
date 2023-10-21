@@ -1,0 +1,87 @@
+.top-panel,
+.bottom-panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top-resizer {
+    height: 5px;
+    cursor: row-resize;
+    background-color: rgb(173, 183, 230);
+}
+
+.top-content {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.bottom-resizer {
+    height: 5px;
+    background-color: #aaaaaa;
+    cursor: row-resize;
+}
+
+.bottom-content {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.middle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.center-panel {
+    flex-grow: 1;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-content {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.right-resizer {
+    width: 5px;
+    cursor: col-resize;
+    background-color: darkred;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+}
+
+.left-content {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.left-resizer {
+    width: 5px;
+    cursor: col-resize;
+    background-color: darkgreen;
+}
+
+.center-panel {
+    background-color: lightgray;
+}
+
+.right-panel {
+    background-color: lightcoral;
+}
